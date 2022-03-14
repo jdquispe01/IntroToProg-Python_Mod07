@@ -42,3 +42,34 @@ pickled_file.close() # The file is closed
 
 binary file read by wordpad
 
+
+### Topic 4
+Python code to make exception:
+```python
+import pickle
+
+sample_file_dict= {'Id':"John",'floor':"first floor", 'room':"B1"} #sample information in dictionary data
+pickled_file = open("sample_dict_file.dat", 'wb') # This makes a new .dat file , binary file
+pickle.dump(sample_file_dict,pickled_file) # The dump command writes all the data to the 'sample_dict_file.dat file that was opened
+pickled_file.close() # The file is closed
+
+'''To convert the binary file back to a dictionary data and print'''
+pickled_file = open("sample_dict_file.dat", "rb") # This will load up the binary file
+unpickled_file = pickle.load(pickled_file) # This converts the binary to a dictionary data
+print (unpickled_file) # This prints the 'unpickled' data from
+
+
+# Example of Exception error handling
+# This will use the exception of wrong file used to open file
+# File used is the one from pickle example, sample_file_dict.txt
+try:
+    file_name=str(input("enter name of file: ")) #This requests the file name
+    Dic_File= open(file_name,"r") #This will open file
+    for row in Dic_File: # reads out each row
+        print (row) # print the correct file in binary format.
+except FileNotFoundError as e:      #I used the specific exception of file not found
+    print(file_name + "\tfile not correct")     #prints the value entered and description of error
+    
+```
+
+![image_of cmd line output]()
