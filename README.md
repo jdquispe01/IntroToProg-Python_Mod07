@@ -79,3 +79,6 @@ The next image is with correct file name.
 ![image with correect file name](https://github.com/jdquispe01/IntroToProg-Python_Mod07/blob/main/cmd_file_exception2.JPG)
 
 
+### Summary
+This assignment went over the importance of error handling and how it is best used to allow users to understand errors that can be made by the ‘end-users’. This is very useful when the code is tested by someone who is not familiar with the code or python. The pickling module was also explained in how to convert data into binary format for easier handling and copying from computer to another computer. The binary file is not human readable but can be easily converted back to its original version. 
+Making modules from within the modules offered by the Python installation were explained in the videos and in the on-line web searches. 
