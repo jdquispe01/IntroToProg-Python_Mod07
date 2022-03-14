@@ -73,3 +73,7 @@ except FileNotFoundError as e:      #I used the specific exception of file not f
 ```
 
 ![image_of cmd line output](https://github.com/jdquispe01/IntroToProg-Python_Mod07/blob/main/cmd_file_exception1.JPG)
+
+Image of exception with code above 
+The next image is with correct file name. 
+![image with correect file name]()
