@@ -38,4 +38,7 @@ pickle.dump(sample_file_dict,pickled_file) # The dump command writes all the dat
 pickled_file.close() # The file is closed
 ```
 
-![binary file read by wordpad]()
+![binary file read by wordpad](https://user-images.githubusercontent.com/100054021/158120171-f5076e52-ea17-4066-8db9-8451631ebc26.png)
+
+binary file read by wordpad
+
